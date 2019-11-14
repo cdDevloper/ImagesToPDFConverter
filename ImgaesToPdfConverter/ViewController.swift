@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     fileprivate func getDestinationPath(pdfData:Data,pdfNameFromUrl:String) -> String {
        // DispatchQueue.main.async {
             let resourceDocPath = (FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)).last! as URL
-            let pdfNameFromUrl = "driver-bol.pdf"
             let actualPath = resourceDocPath.appendingPathComponent(pdfNameFromUrl)
             do {
                 try pdfData.write(to: actualPath, options: .atomic)
@@ -51,7 +50,8 @@ class ViewController: UIViewController {
         }
             do {
                 let data = try PDFGenerator.generated(by: pages, dpi: .default)
-                openPDFViewer(getDestinationPath(pdfData: data))
+                let str = data.base64EncodedString()
+                openPDFViewer(getDestinationPath(pdfData: data, pdfNameFromUrl: "bol.pdf"))
             } catch let e {
                 print(e)
         }
