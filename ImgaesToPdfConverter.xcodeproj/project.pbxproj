@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36252DAF2E40FBC34B1A9462 /* Pods_ImgaesToPdfConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EC137E2E3A9F53665F12E9 /* Pods_ImgaesToPdfConverter.framework */; };
+		AAFBB51A237D22D50098AD30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBB519237D22D50098AD30 /* AppDelegate.swift */; };
+		AAFBB51C237D22D50098AD30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBB51B237D22D50098AD30 /* ViewController.swift */; };
+		AAFBB51F237D22D50098AD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFBB51D237D22D50098AD30 /* Main.storyboard */; };
+		AAFBB521237D22D80098AD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFBB520237D22D80098AD30 /* Assets.xcassets */; };
+		AAFBB524237D22D80098AD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFBB522237D22D80098AD30 /* LaunchScreen.storyboard */; };
+		AAFBB52F237D22D80098AD30 /* ImgaesToPdfConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBB52E237D22D80098AD30 /* ImgaesToPdfConverterTests.swift */; };
+		AAFBB53A237D22D80098AD30 /* ImgaesToPdfConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBB539237D22D80098AD30 /* ImgaesToPdfConverterUITests.swift */; };
+		AAFBB548237D26610098AD30 /* ImagePickerr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBB547237D26600098AD30 /* ImagePickerr.swift */; };
+		AAFBB54A237D32B00098AD30 /* PDFPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBB549237D32B00098AD30 /* PDFPreviewVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFBB52B237D22D80098AD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFBB50E237D22D40098AD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFBB515237D22D50098AD30;
+			remoteInfo = ImgaesToPdfConverter;
+		};
+		AAFBB536237D22D80098AD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFBB50E237D22D40098AD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFBB515237D22D50098AD30;
+			remoteInfo = ImgaesToPdfConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FA9010624181A0F284152E1 /* Pods-ImgaesToPdfConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgaesToPdfConverter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImgaesToPdfConverter/Pods-ImgaesToPdfConverter.release.xcconfig"; sourceTree = "<group>"; };
+		75208964DBBFD5983406811B /* Pods-ImgaesToPdfConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgaesToPdfConverter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImgaesToPdfConverter/Pods-ImgaesToPdfConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		AAFBB516237D22D50098AD30 /* ImgaesToPdfConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgaesToPdfConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFBB519237D22D50098AD30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFBB51B237D22D50098AD30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFBB51E237D22D50098AD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFBB520237D22D80098AD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFBB523237D22D80098AD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFBB525237D22D80098AD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFBB52A237D22D80098AD30 /* ImgaesToPdfConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgaesToPdfConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFBB52E237D22D80098AD30 /* ImgaesToPdfConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgaesToPdfConverterTests.swift; sourceTree = "<group>"; };
+		AAFBB530237D22D80098AD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFBB535237D22D80098AD30 /* ImgaesToPdfConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgaesToPdfConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFBB539237D22D80098AD30 /* ImgaesToPdfConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgaesToPdfConverterUITests.swift; sourceTree = "<group>"; };
+		AAFBB53B237D22D80098AD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFBB547237D26600098AD30 /* ImagePickerr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerr.swift; sourceTree = "<group>"; };
+		AAFBB549237D32B00098AD30 /* PDFPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPreviewVC.swift; sourceTree = "<group>"; };
+		D5EC137E2E3A9F53665F12E9 /* Pods_ImgaesToPdfConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImgaesToPdfConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFBB513237D22D50098AD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36252DAF2E40FBC34B1A9462 /* Pods_ImgaesToPdfConverter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFBB527237D22D80098AD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFBB532237D22D80098AD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63492D0C22A82E25BCF76DAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC137E2E3A9F53665F12E9 /* Pods_ImgaesToPdfConverter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DD9CA5353B419538F37FA6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75208964DBBFD5983406811B /* Pods-ImgaesToPdfConverter.debug.xcconfig */,
+				4FA9010624181A0F284152E1 /* Pods-ImgaesToPdfConverter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAFBB50D237D22D40098AD30 = {
+			isa = PBXGroup;
+			children = (
+				AAFBB518237D22D50098AD30 /* ImgaesToPdfConverter */,
+				AAFBB52D237D22D80098AD30 /* ImgaesToPdfConverterTests */,
+				AAFBB538237D22D80098AD30 /* ImgaesToPdfConverterUITests */,
+				AAFBB517237D22D50098AD30 /* Products */,
+				7DD9CA5353B419538F37FA6D /* Pods */,
+				63492D0C22A82E25BCF76DAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFBB517237D22D50098AD30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBB516237D22D50098AD30 /* ImgaesToPdfConverter.app */,
+				AAFBB52A237D22D80098AD30 /* ImgaesToPdfConverterTests.xctest */,
+				AAFBB535237D22D80098AD30 /* ImgaesToPdfConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFBB518237D22D50098AD30 /* ImgaesToPdfConverter */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBB549237D32B00098AD30 /* PDFPreviewVC.swift */,
+				AAFBB547237D26600098AD30 /* ImagePickerr.swift */,
+				AAFBB519237D22D50098AD30 /* AppDelegate.swift */,
+				AAFBB51B237D22D50098AD30 /* ViewController.swift */,
+				AAFBB51D237D22D50098AD30 /* Main.storyboard */,
+				AAFBB520237D22D80098AD30 /* Assets.xcassets */,
+				AAFBB522237D22D80098AD30 /* LaunchScreen.storyboard */,
+				AAFBB525237D22D80098AD30 /* Info.plist */,
+			);
+			path = ImgaesToPdfConverter;
+			sourceTree = "<group>";
+		};
+		AAFBB52D237D22D80098AD30 /* ImgaesToPdfConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBB52E237D22D80098AD30 /* ImgaesToPdfConverterTests.swift */,
+				AAFBB530237D22D80098AD30 /* Info.plist */,
+			);
+			path = ImgaesToPdfConverterTests;
+			sourceTree = "<group>";
+		};
+		AAFBB538237D22D80098AD30 /* ImgaesToPdfConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFBB539237D22D80098AD30 /* ImgaesToPdfConverterUITests.swift */,
+				AAFBB53B237D22D80098AD30 /* Info.plist */,
+			);
+			path = ImgaesToPdfConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFBB515237D22D50098AD30 /* ImgaesToPdfConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFBB53E237D22D80098AD30 /* Build configuration list for PBXNativeTarget "ImgaesToPdfConverter" */;
+			buildPhases = (
+				29A0D7E43F0882C20F0A22E0 /* [CP] Check Pods Manifest.lock */,
+				AAFBB512237D22D50098AD30 /* Sources */,
+				AAFBB513237D22D50098AD30 /* Frameworks */,
+				AAFBB514237D22D50098AD30 /* Resources */,
+				E04921836B169D5ACBEC86AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImgaesToPdfConverter;
+			productName = ImgaesToPdfConverter;
+			productReference = AAFBB516237D22D50098AD30 /* ImgaesToPdfConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFBB529237D22D80098AD30 /* ImgaesToPdfConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFBB541237D22D80098AD30 /* Build configuration list for PBXNativeTarget "ImgaesToPdfConverterTests" */;
+			buildPhases = (
+				AAFBB526237D22D80098AD30 /* Sources */,
+				AAFBB527237D22D80098AD30 /* Frameworks */,
+				AAFBB528237D22D80098AD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFBB52C237D22D80098AD30 /* PBXTargetDependency */,
+			);
+			name = ImgaesToPdfConverterTests;
+			productName = ImgaesToPdfConverterTests;
+			productReference = AAFBB52A237D22D80098AD30 /* ImgaesToPdfConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFBB534237D22D80098AD30 /* ImgaesToPdfConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFBB544237D22D80098AD30 /* Build configuration list for PBXNativeTarget "ImgaesToPdfConverterUITests" */;
+			buildPhases = (
+				AAFBB531237D22D80098AD30 /* Sources */,
+				AAFBB532237D22D80098AD30 /* Frameworks */,
+				AAFBB533237D22D80098AD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFBB537237D22D80098AD30 /* PBXTargetDependency */,
+			);
+			name = ImgaesToPdfConverterUITests;
+			productName = ImgaesToPdfConverterUITests;
+			productReference = AAFBB535237D22D80098AD30 /* ImgaesToPdfConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFBB50E237D22D40098AD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SiteFuelUSA;
+				TargetAttributes = {
+					AAFBB515237D22D50098AD30 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AAFBB529237D22D80098AD30 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AAFBB515237D22D50098AD30;
+					};
+					AAFBB534237D22D80098AD30 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AAFBB515237D22D50098AD30;
+					};
+				};
+			};
+			buildConfigurationList = AAFBB511237D22D40098AD30 /* Build configuration list for PBXProject "ImgaesToPdfConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFBB50D237D22D40098AD30;
+			productRefGroup = AAFBB517237D22D50098AD30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFBB515237D22D50098AD30 /* ImgaesToPdfConverter */,
+				AAFBB529237D22D80098AD30 /* ImgaesToPdfConverterTests */,
+				AAFBB534237D22D80098AD30 /* ImgaesToPdfConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFBB514237D22D50098AD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFBB524237D22D80098AD30 /* LaunchScreen.storyboard in Resources */,
+				AAFBB521237D22D80098AD30 /* Assets.xcassets in Resources */,
+				AAFBB51F237D22D50098AD30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFBB528237D22D80098AD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFBB533237D22D80098AD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29A0D7E43F0882C20F0A22E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImgaesToPdfConverter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04921836B169D5ACBEC86AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImgaesToPdfConverter/Pods-ImgaesToPdfConverter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PDFGenerator/PDFGenerator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFGenerator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImgaesToPdfConverter/Pods-ImgaesToPdfConverter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFBB512237D22D50098AD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFBB51C237D22D50098AD30 /* ViewController.swift in Sources */,
+				AAFBB548237D26610098AD30 /* ImagePickerr.swift in Sources */,
+				AAFBB54A237D32B00098AD30 /* PDFPreviewVC.swift in Sources */,
+				AAFBB51A237D22D50098AD30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFBB526237D22D80098AD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFBB52F237D22D80098AD30 /* ImgaesToPdfConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFBB531237D22D80098AD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFBB53A237D22D80098AD30 /* ImgaesToPdfConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFBB52C237D22D80098AD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFBB515237D22D50098AD30 /* ImgaesToPdfConverter */;
+			targetProxy = AAFBB52B237D22D80098AD30 /* PBXContainerItemProxy */;
+		};
+		AAFBB537237D22D80098AD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFBB515237D22D50098AD30 /* ImgaesToPdfConverter */;
+			targetProxy = AAFBB536237D22D80098AD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAFBB51D237D22D50098AD30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFBB51E237D22D50098AD30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFBB522237D22D80098AD30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFBB523237D22D80098AD30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFBB53C237D22D80098AD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFBB53D237D22D80098AD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFBB53F237D22D80098AD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75208964DBBFD5983406811B /* Pods-ImgaesToPdfConverter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U24A8B9239;
+				INFOPLIST_FILE = ImgaesToPdfConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitefuelusa.driver.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DriverQA;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFBB540237D22D80098AD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA9010624181A0F284152E1 /* Pods-ImgaesToPdfConverter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U24A8B9239;
+				INFOPLIST_FILE = ImgaesToPdfConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sitefuelusa.driver.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DriverQA;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAFBB542237D22D80098AD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U24A8B9239;
+				INFOPLIST_FILE = ImgaesToPdfConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SiteFuelUSA.Driver.ImgaesToPdfConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImgaesToPdfConverter.app/ImgaesToPdfConverter";
+			};
+			name = Debug;
+		};
+		AAFBB543237D22D80098AD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U24A8B9239;
+				INFOPLIST_FILE = ImgaesToPdfConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SiteFuelUSA.Driver.ImgaesToPdfConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImgaesToPdfConverter.app/ImgaesToPdfConverter";
+			};
+			name = Release;
+		};
+		AAFBB545237D22D80098AD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U24A8B9239;
+				INFOPLIST_FILE = ImgaesToPdfConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SiteFuelUSA.Driver.ImgaesToPdfConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImgaesToPdfConverter;
+			};
+			name = Debug;
+		};
+		AAFBB546237D22D80098AD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U24A8B9239;
+				INFOPLIST_FILE = ImgaesToPdfConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SiteFuelUSA.Driver.ImgaesToPdfConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImgaesToPdfConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFBB511237D22D40098AD30 /* Build configuration list for PBXProject "ImgaesToPdfConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFBB53C237D22D80098AD30 /* Debug */,
+				AAFBB53D237D22D80098AD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFBB53E237D22D80098AD30 /* Build configuration list for PBXNativeTarget "ImgaesToPdfConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFBB53F237D22D80098AD30 /* Debug */,
+				AAFBB540237D22D80098AD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFBB541237D22D80098AD30 /* Build configuration list for PBXNativeTarget "ImgaesToPdfConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFBB542237D22D80098AD30 /* Debug */,
+				AAFBB543237D22D80098AD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFBB544237D22D80098AD30 /* Build configuration list for PBXNativeTarget "ImgaesToPdfConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFBB545237D22D80098AD30 /* Debug */,
+				AAFBB546237D22D80098AD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFBB50E237D22D40098AD30 /* Project object */;
+}
